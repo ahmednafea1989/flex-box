@@ -1,6 +1,7 @@
 
-body {
+body, html {
     background-color: khaki;
+    height: 100%;
 }
 
 
@@ -9,12 +10,17 @@ body {
     display: flex;
     margin: 100px;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    height: 100%;
+    
 
 }
 
 .logout {
     /* margin-left: auto; */
+    background-color: lightcoral;
+    width: 33.3333%;
+    text-align: center;
 }
 
 /* .container > div {
@@ -23,11 +29,18 @@ body {
     
 /* } */ 
 
-/* .container > .search {
-    flex: 2;
-} */
+ .search {
+    
+    background-color: mediumpurple;
+    width: 33.3333%;
+    text-align: center;
+   
+} 
 
 
-/* .home {
-    flex: 1px;
-} */
+.home {
+    background-color: lightsteelblue;
+    width: 33.3333%;
+    text-align: center;
+}
+
