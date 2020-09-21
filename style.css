@@ -12,6 +12,7 @@ body, html {
     flex-direction: row;
     /* justify-content: space-around; */
     height: 100%;
+    align-items: stretch;
     
 
 }
@@ -21,13 +22,14 @@ body, html {
     background-color: lightcoral;
     width: 33.3333%;
     text-align: center;
+    /* align-self: flex-end; */
 }
 
-/* .container > div {
-    flex: 1; */
+.container > div {
+    width: 33.3333%;
     /* flex-grow flex-shrink flex-basis */
     
-/* } */ 
+ } 
 
  .search {
     
