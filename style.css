@@ -8,4 +8,7 @@ body {
     border: 5px solid green ;
     display: flex;
     margin: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
