@@ -8,8 +8,8 @@ body {
     border: 5px solid green ;
     display: flex;
     margin: 100px;
-    /* flex-direction: row;
-    justify-content: space-around; */
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -17,12 +17,17 @@ body {
     /* margin-left: auto; */
 }
 
-.container > div {
-    flex: 1;
+/* .container > div {
+    flex: 1; */
     /* flex-grow flex-shrink flex-basis */
     
-}
+/* } */ 
 
-.container > .search {
+/* .container > .search {
     flex: 2;
-}
+} */
+
+
+/* .home {
+    flex: 1px;
+} */
