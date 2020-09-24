@@ -83,21 +83,26 @@ body, html {
 
 
 .out {
-    position: relative;
+    /* position: relative; */
     height: 100%;
     width: 100%;
     background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
 
 }
 
 .in {
-    position: absolute;
+    /* position: absolute; */
     height:200px ;
     width: 200px;
-    background-color: yellow;
-    top: 50%;
+     background-color: yellow; 
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */ 
+    
 
 
 
