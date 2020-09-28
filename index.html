@@ -50,10 +50,24 @@
        <a href="https://www.google.com">google</a> 
 
        <iframe src="https://www.yahoo.com/" height="300" width="400"></iframe>
-       <marquee behavior="scroll" direction="up">
-        <img src="/uploads/media/default/0001/01/0710cad7a1017902166203def268a0df2a5fd545.png" width="190" height="45" alt="W3docs" />
+       <!-- <marquee behavior="scroll" direction="up">
+        <img src="/uploads/media/default/0001/01/0710cad7a1017902166203def268a0df2a5fd545.png" width="190" height="45" alt="W3docs" /> -->
 
+        <p>In this example, the image is taller than the element containing it, and it is floated, so it overflows outside of its container:</p>
 
+        <div  >
+          <h2>Without Clearfix</h2>
+          <img class="img1" src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-1.2.1&w=1000&q=80" alt="Pineapple" width="170" height="170">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+        </div>
+        
+        <p style="clear:right">Add the clearfix hack to the containing element, to fix this problem:</p>
+        
+        <div class="clearfix">
+          <h2>With Clearfix</h2>
+          <img class="img2" src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-1.2.1&w=1000&q=80" alt="Pineapple" width="170" height="170">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+        </div>
 
 </body>
 </html>
