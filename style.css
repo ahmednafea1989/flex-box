@@ -150,3 +150,13 @@ div {
       border-right: 100px solid blueviolet;
        /* border-left: 100px solid green; */
   }
+  /* .tag::after {
+      content: "how are you";
+
+    
+  } */
+
+  .tag:hover::after {
+    content: "how are you";
+
+}
