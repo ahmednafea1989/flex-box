@@ -135,6 +135,7 @@ div {
     content: "";
     clear: both;
     display: table;
+    overflow: scroll;
   }
   
   .img2 {
@@ -183,9 +184,9 @@ div {
 }
 
 #myDIV {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    color: white;
-  }
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+}
