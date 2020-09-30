@@ -181,3 +181,11 @@ div {
     width: 100px;
     background-color: red;
 }
+
+#myDIV {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    color: white;
+  }
